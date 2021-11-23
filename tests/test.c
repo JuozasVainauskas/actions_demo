@@ -2,7 +2,7 @@
 
 int main() {
     int result = sum(1, 2);
-    if(result == 3) {
+    if(result == 5) {
         return 0;
     }
     
