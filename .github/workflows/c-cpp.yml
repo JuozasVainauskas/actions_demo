@@ -22,4 +22,4 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Tests
-      run: make tests_exec
+      run: make tests_exec && ./tests/test_executable
