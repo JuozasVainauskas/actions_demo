@@ -1,2 +1,5 @@
 exec:
-	gcc main.c -o exec
+	cd src && $(MAKE)
+
+tests_exec:
+	cd tests && $(MAKE)
