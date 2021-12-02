@@ -2,7 +2,7 @@
 #include "./headers/func.h"
 
 int main() {
-    int result = sum(3, 4);
+    int result = sum(3, 4)
     printf("Result = %d", result);
     return 0;
 }
